@@ -1,4 +1,46 @@
 *{margin: 0; padding: 0;} 
 div.menutop .navbar .container .navbar-brand img{
-	width: 12.5%;
+	width: 130px;
+	height: 100px;
+}
+nav.navbar.navbar-light.bg-faded{
+	margin: 0;
+	padding:0;
+	height: 100px;
+}
+a.nav-link{
+	font-family: segoe ui;
+	text-transform: uppercase;
+	font-size: 13px;
+	color:#101010;
+	line-height: 79px;
+}
+li.nav-item{
+	margin:0;
+	padding:0;
+	margin: 0 17px;
+}
+
+@media (max-width: 576px){
+	*{}
+li.nav-item{
+	float:none!important;
+	display:inline!important;
+	margin:0 0;
+}
+ul.nav.navbar-nav.float-xs-right{
+	float:none;
+	text-align:center;
+}
+a.nav-link{
+	line-height:27px;
+	display:inline!important;
+}
+a.navbar-brand{
+	display:block;
+	text-align: center;
+	width: 100%;
+}
+
+
 }
