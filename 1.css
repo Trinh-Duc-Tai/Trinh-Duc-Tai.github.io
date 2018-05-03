@@ -8,7 +8,36 @@ a.navbar-brand {
     padding: 0;
     margin: 0;
 }
-
+.tt{
+	z-index: 2;
+	position: relative;
+	padding-top: 20%;
+}
+.tt img{
+	border-radius: 50%;
+	margin-bottom: 50px;
+}
+.tt h2{
+	text-transform: uppercase;
+	font-size: 40px;
+	color:white;
+	margin-bottom: 22px;
+}
+.tt p{
+	color:black;
+	font-size: 16px;
+	font-family: segoe ui;
+	line-height: 24x;
+	width: 46%;
+	margin:auto;
+	margin-bottom: 34px;
+}
+a.nuthire.btn.btn-primary{
+	width: 180px;
+	background: black;
+	border: none;
+	border-radius:0px;
+}
 .khoitt1 {
     height: 100%;
     width: 100%;
@@ -24,6 +53,7 @@ a.navbar-brand {
     width: 50%;
     height: 100%;
     background: #e4555b;
+    z-index: 1;
 }
 
 body,html {
