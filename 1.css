@@ -90,8 +90,14 @@ li.nav-item{
 	margin:0 0;
 }
 ul.nav.navbar-nav.float-xs-right{
-	float:none;
+	/*float:none!important;*/
 	text-align:center;
+	background: white;
+	margin:0;
+	padding:10px 5px;
+	width: 110%;
+	position: relative;
+	left:20px;
 }
 a.nav-link{
 	line-height:27px;
@@ -101,6 +107,10 @@ a.navbar-brand{
 	display:block;
 	text-align: center;
 	width: 100%;
+}
+.tt img{
+	/*width:200px;*/
+	margin-top:110px;
 }
 
 
