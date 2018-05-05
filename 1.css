@@ -15,7 +15,8 @@ a.navbar-brand {
 }
 .tt img{
 	border-radius: 50%;
-	margin-bottom: 50px;
+	margin-bottom: 38px;
+	margin-top: -50px;
 }
 .tt h2{
 	text-transform: uppercase;
@@ -30,13 +31,18 @@ a.navbar-brand {
 	line-height: 24x;
 	width: 46%;
 	margin:auto;
-	margin-bottom: 34px;
+	margin-bottom: 25px;
 }
 a.nuthire.btn.btn-primary{
 	width: 180px;
 	background: black;
 	border: none;
 	border-radius:0px;
+}
+a.nuthire.btn.btn-primary:hover{
+	background: pink;
+	color:black;
+	font-weight: bold;
 }
 .khoitt1 {
     height: 100%;
@@ -125,6 +131,43 @@ span.motaqt{
 	line-height: 20px;
 	color:#636363;
 }
+.xuong{
+	width: 22px;
+	height: 38px;
+	border: 1px solid white;
+	position: absolute;
+	left:50%;
+	border-radius: 30px;
+	bottom: 1%;
+	margin-left: -11px;
+	z-index:2;
+	cursor: pointer;
+	transition: 1s;
+}
+.xuong:hover{
+	/*position: absolute;*/
+	bottom: 3%;
+}
+.xuong:after{
+	content:"";
+	width: 2px;
+	height: 6px;
+	border: 1px solid white;
+	position: absolute;
+	left:50%;
+	bottom: 66%;
+	margin-left: -1px;
+}
+/*.xuong1{
+	width: 2px;
+	height: 6px;
+	border: 1px solid white;
+	position: absolute;
+	left:50%;
+	margin-left: -1px;
+	z-index: 2;
+	bottom: 5%;
+}*/
 @media (max-width: 576px){
 	*{}
 li.nav-item{
@@ -143,6 +186,10 @@ ul.nav.navbar-nav.float-xs-right{
 	left:15px;
 	border-top: 1px solid #d8d8d8;
 }
+.tieudeto.text-xs-center{
+	margin-bottom: 10px;
+	margin-top:160px;
+}
 a.nav-link{
 	line-height:27px;
 	display:inline!important;
@@ -160,6 +207,10 @@ a.navbar-brand{
 	line-height:60px;
 	/*background: url(img/ke4.png) no-repeat right bottom;*/
 }
+/*.xuong1{
+	position: absolute;
+	bottom:4%;
+}*/
 
 
 }
