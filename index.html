@@ -10,6 +10,18 @@
  	<link rel="stylesheet" href="1.css">
 </head>
 <body >
+
+	<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v3.0&appId=190748445085686&autoLogAppEvents=1';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+
 	<div class="menutop">
 		<nav class="navbar navbar-light bg-faded navbar-fixed-top"> <!-- b4:navbar(tab) -->
 			<div class="container">
@@ -139,6 +151,21 @@
  					<h1>Liên hệ</h1>
  				</div>
  			</div> <!-- end row -->
+ 		</div>
+ 	</div>
+
+ 	<div class="khoicmt">
+ 		<div class="container">
+ 			<div class="row">
+ 				<div class="col-sm-12">
+ 					<h1 class="text-xs-center">
+ 						Phản hồi
+ 					</h1>
+ 					<div class="commentfacebook">
+ 						<div class="fb-comments" data-href="https://trinh-duc-tai.github.io/" data-width="576" data-numposts="5"></div>
+ 					</div>
+ 				</div>
+ 			</div>
  		</div>
  	</div>
 </body>
