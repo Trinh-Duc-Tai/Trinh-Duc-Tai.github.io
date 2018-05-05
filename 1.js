@@ -17,6 +17,10 @@
  		$('body,html').animate({scrollTop:$('#khoilh').offset().top})
  		// return false;
  	});
+ 	$(".cmt").click(function() {
+ 		$('body,html').animate({scrollTop:$('#khoicmt').offset().top})
+ 		// return false;
+ 	});
 
 })  
  
