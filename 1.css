@@ -3,7 +3,9 @@
 
 /*/////////////*/
 *{margin: 0; padding: 0;}
-
+a{
+	text-decoration: none;
+}
 a.navbar-brand {
     padding: 0;
     margin: 0;
@@ -130,6 +132,53 @@ span.motaqt{
 	font-size:13px;
 	line-height: 20px;
 	color:#636363;
+}
+
+article.tinnho{
+	width: 260px;
+	height: 220px;
+	margin-right: 10px; 
+	border: 1px solid #E9E9E9;
+	float:left;
+	margin-top: 20px;
+
+}
+article.tinnho:nth-child(4n){
+	margin-right: 0px;
+}
+article.tinnho img{
+	width: 100%;
+	padding-bottom: 14px;
+
+}
+
+article a.tdtinnho{
+	text-decoration: none;
+	font-weight: bold;
+	color:#414141;
+	font-family: tahoma; /*myriad pro hoặc tahoma*/
+	font-size:14px;
+	line-height: 20px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	display:block;
+}
+article .thongtin{
+	font-family: tahoma;
+	font-size:14px;
+	color:gray;
+	padding:0px 0px 10px 10px; /*trên phải dưới trái*/
+}
+.cucto{
+	width: 1070px;
+	margin-left: 35px;
+}
+
+
+
+.khoittnho a:hover{
+	color:orange;
+}
 }
 .xuong{
 	width: 22px;
