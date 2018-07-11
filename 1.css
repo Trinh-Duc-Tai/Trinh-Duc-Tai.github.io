@@ -40,6 +40,37 @@ a.navbar-brand {
   100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
 /*hết thuộc tính shake*/
+
+
+/*skill*/
+/* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.skill {
+    width: 100%; /* Full width */
+    background-color: #ddd; /* Grey background */
+}
+
+.skills {
+    text-align: right; /* Right-align text */
+    padding-right: 20px; /* Add some right padding */
+    line-height: 40px; /* Set the line-height to center the text inside the skill bar, and to expand the height of the container */
+    color: white; /* White text color */
+}
+
+.html {width: 60%; background-color: #f53b57;} /* Green */
+.css {width: 60%; background-color: rgb(23,192,235);} /* Blue */
+.js {width: 30%; background-color: #FF9800;} /* Red */
+.php {width: 30%; background-color: rgb(44,62,80);} /* Dark Grey */
+.pts {width: 50%; background-color: rgb(41,128,185);} /* Green */
+.ai {width: 30%; background-color:#FF5722 ;} /* Blue */
+.wo {width: 80%; background-color: rgb(52,152,219);} /* Red */
+.ex {width: 70%; background-color: rgb(46,204,113);} /* Dark Grey */
+.pp {width: 95%; background-color: rgb(255, 77, 77);} /* Dark Grey */
+.cplus {width: 50%; background-color: rgb(155,89,182);} /* Dark Grey */
+.java {width: 50%; background-color: rgb(255,242,0);} /* Dark Grey */
+/*hết skill*/
 .tt h2{
 	text-transform: uppercase;
 	font-size: 40px;
