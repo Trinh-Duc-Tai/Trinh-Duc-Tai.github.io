@@ -1,0 +1,38 @@
+div img{
+	float:right;
+}
+div{
+	width:730px;
+	height: 213px;
+	margin-bottom: 100px;
+}
+div a{
+	font-size: 26px;
+}
+
+section{
+	width: 780px;
+}
+
+article{
+	width:340px;
+	height: 213px;
+	margin-bottom:100px;
+	margin-right: 50px;
+	float:left;
+}
+article img{
+	width: 340px;
+}
+a{
+	font-family: SFD-Bold;
+	font-weight: bold;
+	font-size: 20px;
+	text-decoration: none;
+	color: #2d2d2d;
+	line-height: 24px;
+	display: block;
+}
+a:hover{
+	color:orange;
+}

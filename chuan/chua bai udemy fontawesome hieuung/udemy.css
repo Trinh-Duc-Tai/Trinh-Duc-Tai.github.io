@@ -1,0 +1,58 @@
+*{
+	margin:0;
+	padding: 0;
+}
+body{
+	background-color: #eee;
+}
+.noidung{
+	margin:auto;
+	width: 1140px;
+	background-color: black;
+	overflow: hidden;
+}
+.khoianh{
+	width: 270px;
+	height: 340px;
+	display: block;
+	position: relative;
+	background-color: white;
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+.khoianh:nth-child(4n){
+	margin-right: 0px;
+}
+.khoianh img{
+	width: 270px;
+}
+.tieude{
+	display: block;
+	font-size: 14px;
+	color:black;
+	padding-left: 12px;
+	padding-top: 12px;
+}
+.tacgia{
+	font-size: 11px;
+	color: gray;
+	display: block;
+	padding-left: 12px;
+	padding-top: 12px;
+}
+.layer2{
+	width: 240px;
+	height: 20px;
+	display: block;
+	background-color: gray;
+	position: absolute;
+	bottom:0px;
+	left: 0px;
+	z-index: 1;
+	padding:5px 15px;
+}
+.layer2 .gia{
+	float: right;
+	color: green;
+}

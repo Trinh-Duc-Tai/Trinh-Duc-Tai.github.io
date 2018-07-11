@@ -1,0 +1,23 @@
+*{
+	margin:0;
+	padding: 0;
+}
+
+.to{
+	width: 900px;
+	margin:auto;
+	background: lightblue;
+	display:flex;
+	flex-direction: row-reverse;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.k1{
+	background-color: brown;
+	padding:14px;
+	margin:2px;
+	border-radius: 4px;
+}
+.khoi2{
+
+}

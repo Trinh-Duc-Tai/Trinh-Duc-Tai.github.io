@@ -149,9 +149,29 @@ article.tinnho:nth-child(4n){
 article.tinnho img{
 	width: 100%;
 	padding-bottom: 14px;
-
 }
 
+
+/*css tinnho1*/
+article.tinnho1{
+	width: 260px;
+	height: 186px;
+	margin-right: 10px; 
+	border: 1px solid #E9E9E9;
+	float:left;
+	margin-top: 20px;
+
+}
+article.tinnho1:nth-child(4n){
+	margin-right: 0px;
+}
+article.tinnho1 img{
+	width: 100%;
+	padding-bottom: 14px;
+	height: 135px;
+}
+
+/*ket thuc css tinnho1*/
 article a.tdtinnho{
 	text-decoration: none;
 	font-weight: bold;

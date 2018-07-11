@@ -1,0 +1,36 @@
+div.tieude{
+	border-bottom :5px solid orange;
+}
+div.tieude h2{
+	margin-bottom: -20px;
+	display:inline-block; /*nen chi bao quanh chu*/
+	background: white;
+	position: relative;
+	top:12px;
+	left:80px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.tin{
+	width: 190px;
+	height: 215px;
+	margin-right: 16px;
+	float:left;
+	margin-top: 20px;
+}
+.tin img{
+	width: 190px;
+}
+.tin a{
+	text-decoration: none;
+	font-family: tahoma;
+	font-size: 13px;
+	color: #414141;
+	font-weight: bold;
+}
+.cucto{
+	width: 810px;
+}
+.tin:nth-child(4n){
+	margin-right: 0px;
+}

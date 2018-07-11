@@ -1,0 +1,21 @@
+/*Css test class id
+Written by TaiTD
+12:42 AM;
+*/
+h2{
+	font-style: italic;
+}
+h2.xanh{
+	color:lightblue;
+}
+.xanh{
+	font-size:40px;
+}
+p{
+	font-family: 'Segoe Ui Light';
+	font-size:44px;
+	text-align:center;
+}
+p#to{
+	background-color: gold;
+}

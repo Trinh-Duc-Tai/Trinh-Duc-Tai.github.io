@@ -1,0 +1,66 @@
+article.tinnho{
+	width: 325px;
+	height: 310px;
+	margin-right: 10px; 
+	border: 1px solid #E9E9E9;
+	float:left;
+
+}
+article.tinnho img{
+	width: 100%;
+	padding-bottom: 14px;
+}
+a.tdtinnho{
+	text-decoration: none;
+	font-weight: bold;
+	color:#414141;
+	font-family: tahoma; /*myriad pro hoặc tahoma*/
+	font-size:14px;
+	line-height: 20px;
+	padding-bottom: 10px;
+	
+	padding-left: 10px;
+	display:block;
+}
+.thongtin{
+	font-family: tahoma;
+	font-size:14px;
+	color:gray;
+	padding:0px 0px 10px 10px; /*trên phải dưới trái*/
+}
+
+
+/*css for div.tinto*/
+article.tinto{
+	width:660px;
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+article.tinto img{
+	width: 	400px;
+	height: 200px;
+	float:left;
+	margin-right:22px;
+}
+.phai{
+	font-family:tahoma;
+	font-size:13px;
+}
+.tinto .phai p{
+
+}
+.tdtinto{
+	text-decoration: none;
+	font-size:16px;
+	font-weight: bold;
+	color:pink;
+}
+.tentg{
+	text-align:center;
+	display:block;
+	color:#414141;
+	font-style:italic;
+}
+
+
+

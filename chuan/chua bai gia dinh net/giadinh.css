@@ -1,0 +1,85 @@
+/*font-family: 'Encode Sans Condensed', sans-serif;*/
+*{
+	margin:0px;
+	padding: 0px;
+}
+
+.giadinh{
+
+	width: 430px;
+	height: 360px;
+	margin:auto;
+	overflow: hidden;
+	margin-top: 20px;
+}
+.tieude{
+	border-top:2px solid #d7657c;
+	text-align:center;
+	padding-top: -5px;
+}
+.tieude a{
+	color:#d7657c;
+	text-decoration: none;
+	font-family: 'Encode Sans Condensed', sans-serif;
+	font-weight: bold;
+	font-size:24px;
+	text-transform: uppercase;
+	position: relative;
+	top:20px;
+	background-color: white; /*de vien xuyen qua roi chon nen mau trang de nhin giong xuyen qua*/ 
+	padding: 0 10px;
+}
+.vien{
+	border-top:1px solid gray;
+	border-bottom: 3px solid #414141;
+	height: 3px;
+}
+.tin{
+	margin-top: 20px;
+}
+.tin img{
+	float:left;
+	margin-right: 18px;
+	border:1px solid #b3b3b3;
+	padding:2px;
+	box-shadow: 4px 4px 0px #80808061;
+}
+.tin .tdtin{
+	text-decoration: none;
+	color:#1f1f1f;
+	font-weight: bold;
+	font-size: 18px;
+	font-family: 'Encode Sans Condensed', sans-serif;
+	line-height: 25px;
+	display: block;
+	margin-bottom: 8px;
+}
+.tin p{
+	color: #666;
+	font-family: tahoma;
+	font-size: 13px;
+	line-height: 18px;
+}
+
+/*css cho .dstin*/
+.dstin{
+	margin-top:14px;
+}
+.dstin ul{
+	margin-left: 5px;
+	list-style: none;
+}
+.dstin ul li{
+	border-bottom: 1px dotted gray;
+	padding:20px 0;
+	background: url(http://giadinh.mediacdn.vn/web_images/sprite_giadinh_v2.png) no-repeat;
+	background-position: -782px -94px;
+	padding: 7px 0 7px 15px;
+}
+.dstin ul li a{
+	color: #1f1f1f;
+	font-size: 13px;
+    line-height: 16px;
+    font-family: Arial;
+    text-decoration: none;
+}

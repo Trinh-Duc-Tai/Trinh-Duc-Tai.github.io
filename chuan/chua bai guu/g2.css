@@ -1,0 +1,29 @@
+*{margin:0;padding: 0;}
+.tren{
+	position: relative;
+	width: 360px;
+	height: 200px;
+}
+.tren .layer1{
+	width: 360px;
+}
+.tren .layer2{
+	position: absolute;
+	top:0;
+	left: 0px;
+	z-index: 2;
+	background: #0092C9;
+	color:white;
+	padding: 3px 6px;
+}
+.tren .layer3{
+	position: absolute;
+	bottom:-80px;
+	left: 10px;
+	z-index: 3;
+	display: block;
+	width: 20px;
+	height: 20px;
+	background-color:white;
+	transform: rotate(45deg); 
+}

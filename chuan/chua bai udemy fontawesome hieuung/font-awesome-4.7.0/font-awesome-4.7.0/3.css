@@ -1,0 +1,13 @@
+.sizeto{
+	font-size: 30px;
+	color:chocolate;
+	transition: 0.4s;
+}
+.sizeto:hover{
+	/*font-size:160px;
+	color:violet;
+	padding-left:400px;
+	opacity: 0;*/
+	color:pink;
+	transition: 0.4s;
+}

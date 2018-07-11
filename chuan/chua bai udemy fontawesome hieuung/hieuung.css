@@ -1,0 +1,56 @@
+*{
+	margin:0;
+	padding: 0;
+}
+.bo{
+	width: 400px;
+	height: 300px;
+	position: relative;
+	float: left;
+	margin: 20px;
+}
+.bo .layer1{
+	position: absolute;
+	top:0;
+	left: 0;
+	z-index: 1;
+	width: 400px;
+	height: 300px;
+}
+.bo .layer2{
+	position: absolute;
+	top:0;
+	left: 0;
+	z-index: 2;
+	width: 400px;
+	height: 300px;
+	background-color: lightblue;
+	text-align: center;
+	font-family: "segoe ui light";
+	opacity: 0;
+	transition: 0.4s;
+}
+
+.tieude{
+	font-weight: bold;
+	font-size: 20px;
+	margin-top: 100px;
+}
+.tacgia{
+	font-size: 13px;
+	color: brown;
+}
+.nut{
+	text-decoration: none;
+	background-color: #f45d77;
+	color:white;
+	padding:5px 10px;
+	display: inline-block;
+	margin-top:10px;
+	
+}
+.bo:hover .layer2{
+	opacity: 1;
+	top:10px;
+	left:10px;
+}

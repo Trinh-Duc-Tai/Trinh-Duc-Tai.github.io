@@ -1,0 +1,66 @@
+/*font-family: 'Roboto', sans-serif;*/
+*{
+	margin: 0;
+	padding: 0;
+}
+.banner{
+	text-align: center;
+}
+.cangiua{
+	width: 1000px;
+	margin: auto;
+}
+.noidung{
+	width: 800px;
+}
+.tieude h2{
+	font-family: 'Roboto', sans-serif;
+	margin-top:100px;
+	border-bottom: 8px solid #ccc;
+	padding-bottom: 8px;
+	text-transform: uppercase;
+	margin-bottom: 29px;
+	color:#3f3f3f;
+	font-size: 33px;
+}
+.tinto{
+	height: 370px;
+	border-bottom: 1px solid gray;
+	margin-bottom: 20px;
+}
+.tinto img{
+	width: 350px;
+	margin-right: 27px;
+	float:left;
+}
+.tdtinto{
+	text-decoration: none;
+	font-size: 18px;
+	color:#3f3f3f;
+	text-transform: uppercase;
+	display: block;
+	margin-bottom: 13px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+}
+.thongtin{
+	font-family: tahoma;
+	color: #b2b2b2;
+    font-size: 13px;
+    margin: 2px 0 4px 0;
+}
+.tinto p{
+	color: #666;
+    display: block;
+    margin-bottom: 3px;
+	font-family: Arial;
+	font-size: 15px;
+	line-height: 20px;
+}
+
+.nhohonmotti img{
+	width: 150px;
+}
+.nhohonmotti{
+	height: 175px;
+}

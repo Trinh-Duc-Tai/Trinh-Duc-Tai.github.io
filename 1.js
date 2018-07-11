@@ -9,8 +9,12 @@
  		$('body,html').animate({scrollTop:$('#khoikn').offset().top})
  		// return false;
  	});
- 	$(".sp").click(function() {
- 		$('body,html').animate({scrollTop:$('#khoisp').offset().top})
+ 	$(".spdh").click(function() {
+ 		$('body,html').animate({scrollTop:$('#khoispdh').offset().top})
+ 		// return false;
+ 	});
+ 	$(".spcode").click(function() {
+ 		$('body,html').animate({scrollTop:$('#khoispcode').offset().top})
  		// return false;
  	});
  	$(".lh").click(function() {

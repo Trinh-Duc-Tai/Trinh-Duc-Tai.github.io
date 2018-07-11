@@ -1,0 +1,65 @@
+.tdto{
+	font-family: 'Markazi Text', serif;
+	text-decoration: none;
+	font-weight: 500px;
+	font-size: 30px;
+	color:#00bbf3;
+	border-left: 5px solid #00bbf3;
+	padding-left: 10px;
+}
+.trai{
+	width: 340px;
+	height:400px; 
+	background-color: #f6f6f6;
+	float:left;
+}
+.trai img{
+	width: 340px;
+	height: 
+}
+.duoi{
+	margin-top: 10px;
+}
+.trai a.tdtrai{
+	font-family: 'Markazi Text', serif;
+	text-decoration: none;
+	color: #004f8b;
+	font-size: 20px;
+	padding-left: 10px;
+	padding-right: 15px;
+	display: block;
+	line-height: 18px;
+
+}
+.trai p{
+	font-family: tahoma;
+	font-size:13px;
+	color:#414141;
+	display:block;
+	padding: 0px 15px; /*tren duoi la 0 px, trai phai la 15px*/
+}
+.phai{
+	width: 360px;
+	float:left;
+	margin-left: 15px;
+}
+.mottin{
+	width: 166px;
+	height: 200px;
+	float: left;
+	margin-right: 14px;
+}
+.mottin img{
+	width: 166px;
+}
+.tdphai{
+	text-decoration: none;
+	color: #004f8b;
+	font-family: tahoma;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+.motkhoitindocbao{
+	height: 500px; /*de khoi tin doc bao ko bi float left lên*/
+}

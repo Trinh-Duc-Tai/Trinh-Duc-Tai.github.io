@@ -1,0 +1,41 @@
+git remote add origin https://github.com/Trinh-Duc-Tai/Trinh-Duc-Tai.github.io.git //ketnoi github tren web
+
+vao web search: Trinh-Duc-Tai.github.io
+
+git init
+!
+git add . //add tat ca cac file
+!
+git add "index.html" //upload file index.html
+!
+git status //chu thich trang thai
+!
+git remote add origin https://github.com/Trinh-Duc-Tai/Trinh-Duc-Tai.github.io.git
+!
+git commit -m "upload 2 file trang chu cua web
+!
+git config --global user.email "trinhductai6869@gmail.com"
+!
+git config --global user.name "Trinh Duc Tai"
+!
+git push origin master //sao chep tat ca len web github
+!
+// thay doi code trong index thi phai code: 
+						git add "index.html"
+						git commit -m "chuthich thay doi"
+						git push origin master //vay la thay doi dc trang web Trinh-Duc-Tai.github.io
+!
+git init
+git remote add origin https://github.com/Trinh-Duc-Tai/Trinh-Duc-Tai.github.io.git
+git pull origin master //lay cac file ve
+!
+//tac dung cua file index.html la khi access vao folder thi auto load to file index.html
+//bit.ly/template_bs4 la link tai file bootstrap 4
+//bit.ly/sublimetext2p
+!
+//git log // hien thi tat ca ten phan luu xong enter xem roi muon thoat thi an Ctrl+C, thuat toan su dung la SHA1
+//de phan tu hieu z-index thi phai co position:relative , z-index 2 de len 1
+//git log // xem lai cac qua trinh chinh sua
+// git checkout 766f  //766f la 4 ky tu dau cua ma bam, ham checkout de quay lai luc do, 
+quay ve 766f su dung no lam cai moi nhat, bat ky thay doi nao thuc hien o day la thay doi moi nhat, thay doi nao cung van con ton tai
+//git reset --hard 766f //chuc nang tuong tu git checkout 766f, quay ve thoi diem 766f, xoa tat ca thay doi bat dau tu 766f tro di bi xoa het
