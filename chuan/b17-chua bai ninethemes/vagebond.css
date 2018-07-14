@@ -1,0 +1,84 @@
+*{
+	margin:0px;padding:0px;
+}
+html{
+	width: 100%;
+	height: 100%;
+}
+body{
+	width: 100%;
+	height: 100%;
+	background-image: url(va1.jpg);
+	background-size: cover;
+}
+.motkhoi{
+	height: 100%;
+	width: 20%;
+	position: relative;
+	overflow: hidden;
+	float:left;
+}
+.motkhoi .nenden{
+	position: absolute;
+	z-index: 1;
+	top:0px;
+	left: 0px;	
+	background-color: rgba(0,0,0,0.4);
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	transition: 0.4s;
+}
+.motkhoi .chu{
+	position: absolute;
+	z-index: 2;
+	top:50%;
+	left: 0px;
+	padding:9px 16px;
+	font-family: "segoe ui light";
+	color:white;
+	font-size: 30px;
+	width: 100%;
+	text-align: center;
+
+	margin-left: -25px;
+}
+.motkhoi .nut{
+	position: absolute;
+	z-index: 3;
+	top:58%;
+	left: 50%;
+	display: inline-block;
+	background: lightblue;
+	color:white;
+	padding:8px;
+	border-radius:20px;
+	margin-left: -70px;
+	opacity: 0;
+	transition: 0.4s;
+	overflow: hidden;
+}
+.motkhoi .text{
+	position: absolute;
+	z-index: 4;
+	bottom:-10px;
+	left:0px;
+	padding:20px;
+	text-align: center;
+	width:100%;
+	opacity: 0;
+	transition: 0.4s;
+	color:white;
+	margin-left: -30px;
+}
+.motkhoi:hover .nenden{
+	opacity: 1;
+}
+.motkhoi:hover .nut{
+	opacity: 1;
+	top:60%;
+}
+.motkhoi:hover .text{
+	bottom:0px;
+	opacity: 1;
+}
