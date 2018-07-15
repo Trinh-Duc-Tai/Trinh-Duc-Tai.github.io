@@ -25,6 +25,10 @@
  		$('body,html').animate({scrollTop:$('#khoicmt').offset().top})
  		// return false;
  	});
+ 	$(".edu").click(function() {
+ 		$('body,html').animate({scrollTop:$('#khoiedu').offset().top})
+ 		// return false;
+ 	});
 
 })  
  
