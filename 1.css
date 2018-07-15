@@ -64,9 +64,11 @@ a.navbar-brand {
 	height: 1050px;
 	opacity: 0.8;
 	/*transition: 10s;*/
+	
+}
+.bokhoikn:hover .layer1{
 	animation: zoomlen 30s forwards; /*forwards la chuyen dong ve phia trc*/
 }
-
 /*code cho phan background spcode*/
 .bokhoikn.spcode{
 	height: 1400px;
