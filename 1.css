@@ -66,6 +66,13 @@ a.navbar-brand {
 	/*transition: 10s;*/
 	
 }
+.bokhoikn.quatrinh .layer1{
+	background-image: url(f2.png);
+
+}
+.bokhoikn.quatrinh .layer1{
+	animation: zoomlen 25s forwards; /*forwards la chuyen dong ve phia trc*/
+}
 .bokhoikn:hover .layer1{
 	animation: zoomlen 25s forwards; /*forwards la chuyen dong ve phia trc*/
 }
