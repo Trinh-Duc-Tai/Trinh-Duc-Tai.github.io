@@ -67,7 +67,7 @@ a.navbar-brand {
 	
 }
 .bokhoikn:hover .layer1{
-	animation: zoomlen 30s forwards; /*forwards la chuyen dong ve phia trc*/
+	animation: zoomlen 25s forwards; /*forwards la chuyen dong ve phia trc*/
 }
 /*code cho phan background spcode*/
 .bokhoikn.spcode{
@@ -95,11 +95,13 @@ a.navbar-brand {
 	margin-left: -700px; /*lien quan den width*/
 	margin-top: -600px;
 	opacity: 0;
+	animation: divao 0.6s forwards;
+	animation-delay: 0.4s;
 	
 }
 .bokhoikn:hover .layer2{
-	animation: divao 0.8s forwards;
-	animation-delay: 0.4s;
+	
+	
 }
 @-webkit-keyframes zoomlen{
 	from{transform: scale(1);}
