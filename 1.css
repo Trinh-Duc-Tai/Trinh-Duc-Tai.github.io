@@ -95,8 +95,11 @@ a.navbar-brand {
 	margin-left: -700px; /*lien quan den width*/
 	margin-top: -600px;
 	opacity: 0;
-	animation: divao 1s forwards;
-	animation-delay: 1s;
+	
+}
+.bokhoikn:hover .layer2{
+	animation: divao 0.8s forwards;
+	animation-delay: 0.4s;
 }
 @-webkit-keyframes zoomlen{
 	from{transform: scale(1);}
