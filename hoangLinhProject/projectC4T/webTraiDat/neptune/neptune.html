@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sao hải vương</title>
+    <link rel="stylesheet" href="neptune.css">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:700&display=swap" rel="stylesheet">
+</head>
+<style>
+        * {box-sizing: border-box}
+        body {font-family: "Lato", sans-serif;}
+        
+        .tab {
+            float: left;
+            border: 1px solid rgb(255, 255, 255);
+            background-color: #000000;
+            width: 30%;
+            height: 550px;
+        }
+        .tab button {
+            display: block;
+            background-color: inherit;
+            color: rgb(255, 255, 255);
+            padding: 22px 16px;
+            width: 100%;
+            border: none;
+            outline: none;
+            text-align: left;
+            cursor: pointer;
+            font-size: 17px;
+        }
+        
+        .tab button:hover {
+            background-color: rgb(255, 255, 255);
+        }
+        
+        .tab button.active {
+            background-color: rgb(130, 192, 243);
+        }
+        
+        .tabcontent {
+            float: left;
+            padding: 0px 12px;
+            border: 1px solid rgb(255, 255, 255);
+            width: 70%;
+            border-left: none;
+            height: 550px;
+            display: none;
+        }
+        
+        .clearfix::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+</style>
+<body>
+    <div id="particles-js"></div> 
+    <div class="neptune">
+        <div></div>
+    </div>
+    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
+    <script src="neptune.js"></script>
+    <p class="h1">Sao hải vương</p>
+
+    <div class="tab">
+            <button class="tablinks" onmouseover="openCity(event, '0')">Cấu tạo</button>    
+        <button class="tablinks" onmouseover="openCity(event, '1')">Thông số</button>
+            <button class="tablinks" onmouseover="openCity(event, '2')">Khí quyển</button>
+            <button class="tablinks" onmouseover="openCity(event, '3')">Khí hậu</button>
+            <button class="tablinks" onmouseover="openCity(event, '5')">Vành đai</button>
+            <button class="tablinks" onmouseover="openCity(event, '6')">Quỹ đạo</button>
+            <button class="tablinks" onmouseover="openCity(event, '7')">Vệ tinh</button>
+            <button class="tablinks" onmouseover="openCity(event, '8')">Thám hiểm</button>
+    </div>
+        
+    <div id="0" class="tabcontent">
+            
+            <h3 class="h3">- Cấu tạo</h3>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Neptune_diagram.svg/325px-Neptune_diagram.svg.png" alt="">
+                <p class="h3">+ Minh họa cấu trúc bên trong của Sao Hải Vương:<br> 
+                        1. Tầng thưọng quyển với những đám mây cao <br> 
+                        2. Tầng khí quyển chứa các khí hiđrô, heli và mêtan <br> 
+                        3. Lớp phủ chứa băng gồm nước, amoniac và mêtan <br>
+                        4. Lõi hành tinh chứa đá (silicat và nikel-sắt).</p>
+            </div>
+    <div id="1" class="tabcontent">
+            
+        <h3 class="h3">- Khối lượng:</h3>
+            <p class="h3">+ Sao Hải Vương có khối lượng 1,0243×1026 kg, bằng 17 lần khối lượng Trái Đất nhưng chỉ bằng 1/19 so với của Sao Mộc. Lực hấp dẫn trên bề mặt của nó chỉ nhỏ hơn của Sao Mộc.
+            </p>
+
+        </div>
+        
+        <div id="2" class="tabcontent">
+            <h3 class="h3">- Khí quyển</h3>
+            <p class="h3">+ Ở cao độ lớn, khí quyển sao Hải Vương chứa 80% hiđrô và 19% heli. Cũng có một lượng nhỏ phân tử mêtan. Dấu vết của khí mêtan cũng được phát hiện khi các nhà khoa học quan sát thấy vạch quang phổ hấp thụ điển hình của mêtan ở bước sóng trên 600 nm, trong miền bước sóng đỏ và hồng ngoại.
+    
+            <br>+ Khí quyển sao Hải Vương chia ra thành hai vùng chính: tầng đối lưu phía dưới với nhiệt độ trong tầng này giảm theo cao độ và tầng bình lưu phía trên với nhiệt độ tăng theo cao độ.</p> 
+        </div>
+        
+        <div id="3" class="tabcontent">
+            <h3 class="h3">- Khí hậu</h3>
+            <p class="h3">+ Một trong những sự khác nhau giữa sao Hải Vương và sao Thiên Vương đó là mức độ của các hiện tượng khí hậu trên hai hành tinh. Khi tàu Voyager 2 bay qua sao Thiên Vương năm 1986, qua bước sóng khả kiến hành tinh này hiện lên hầu như đồng màu và tĩnh lặng. Ngược lại sao Hải Vương lại có những hoạt động mạnh trong tầng khí quyển khi Voyager 2 bay qua từ năm 1989.
+    
+                Thời tiết trên sao Hải Vương được đặc trưng bởi hệ thống những cơn bão cực mạnh, với tốc độ gió có khi lên tới gần 600m/s— gần đạt tới tốc độ siêu thanh đối với dòng khí. Hầu hết gió trên sao Hải Vương thổi theo hướng ngược với chiều quay của hành tinh.</p>
+        </div>
+    
+        <div id="5" class="tabcontent">
+                <h3 class="h3">- Vành đai</h3>
+                <p class="h3">+ Sao Hải Vương cũng có một hệ thống vành đai hành tinh, mặc dù chúng mờ hơn nhiều so với vành đai Sao Thổ. Các vành đai chứa những hạt băng phủ với silicat hoặc vật liệu gốc cacbon, và là nguyên nhân chủ yếu khiến các vành đai có màu sắc đỏ.</p>
+        <img src="https://photo-2-baomoi.zadn.vn/w1000_r1/15/11/08/139/23083375/5_16329.jpg" alt="" width="650" height="450">
+            </div>
+    
+        <div id="6" class="tabcontent">
+            <h3 class="h3">- Quỹ đạo</h3>
+            <p class="h3">+ Khoảng cách trung bình giữa sao Hải Vương và Mặt Trời là 4,5 tỷ km (khoảng 30,1 AU), và chu kỳ quỹ đạo bằng 164,79 năm Trái Đất thay đổi trong khoảng ±0,1 năm.
+    
+        <br>+ Mặt phẳng quỹ đạo elip của sao Hải Vương nghiêng 1,77° so với mặt phẳng quỹ đạo của Trái Đất. Do độ lệch tâm quỹ đạo của nó bằng 0,011 nên khoảng cách tới Mặt Trời thay đổi trong phạm vi 101 triệu km giữa cận điểm và viễn điểm quỹ đạo.
+                
+        <br>+ Quỹ đạo của sao Hải Vương có ảnh hưởng lớn đến những vùng bên ngoài quỹ đạo hành tinh này, như vành đai Kuiper.</p>
+        </div>
+    
+        <div id="7" class="tabcontent">
+            <h3 class="h3">- Vệ tinh</h3>
+            <p class="h3">+ Sao Hải Vương có 14 vệ tinh đã biết. Vệ tinh lớn nhất của nó, Triton chiếm hơn 99,5% khối lượng của toàn bộ các vật thể quay quanh sao Hải Vương[116] và là vệ tinh duy nhất có hình cầu.</p>
+        </div>
+    
+        <div id="8" class="tabcontent">
+            <h3 class="h3">- Thám hiểm</h3>
+            <p class="h3">+ Tàu Voyager 2 tiếp cận sao Hải Vương gần nhất vào ngày 25 tháng 8 năm 1989. Do đây là hành tinh lớn cuối cùng mà con tàu viếng thăm, các nhà quản lý chương trình quyết định cho con tàu bay qua vệ tinh Triton, vì họ không cần phải tính đến quỹ đạo tàu sau đó như thế nào, tương tự như tàu Voyager 1 bay qua Sao Thổ và thực hiện chuyến bay qua vệ tinh Titan.
+    
+                Năm 2003, có một đề xuất trong Kế hoạch các phi vụ trong tương lai của NASA nhằm phóng một tàu quỹ đạo sao Hải Vương mang theo một thiết bị thăm dò khí quyển giống như phi vụ Cassini. Chương trình do Phòng thí nghiệm sức đẩy phản lực JPL và Học viện công nghệ California hợp tác thực hiện, nhưng dự án đã không được phê chuẩn.</p>
+        </div>
+
+    <div class="clearfix"></div>
+    
+    <script>
+    function openCity(evt, cityName) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        document.getElementById(cityName).style.display = "block";
+        evt.currentTarget.className += " active";
+    }
+    </script>
+</body>
+</html>
+
+

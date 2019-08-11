@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sao kim</title>
+    <link rel="stylesheet" href="venus.css">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:700&display=swap" rel="stylesheet">
+</head>
+<style>
+        * {box-sizing: border-box}
+        body {font-family: "Lato", sans-serif;}
+        
+        .tab {
+            float: left;
+            border: 1px solid rgb(255, 255, 255);
+            background-color: #000000;
+            width: 30%;
+            height: 450px;
+        }
+        .tab button {
+            display: block;
+            background-color: inherit;
+            color: rgb(255, 255, 255);
+            padding: 22px 16px;
+            width: 100%;
+            border: none;
+            outline: none;
+            text-align: left;
+            cursor: pointer;
+            font-size: 17px;
+        }
+        
+        .tab button:hover {
+            background-color: rgb(255, 255, 255);
+        }
+        
+        .tab button.active {
+            background-color: rgb(130, 192, 243);
+        }
+        
+        .tabcontent {
+            float: left;
+            padding: 0px 12px;
+            border: 1px solid rgb(255, 255, 255);
+            width: 70%;
+            border-left: none;
+            height: 450px;
+            display: none;
+        }
+        
+        .clearfix::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+</style>
+<body>
+    <div id="particles-js"></div> 
+    <div class="venus">
+        <div></div>
+    </div>
+    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
+    <script src="venus.js"></script>
+    <p class="h1">Sao kim</p>
+    <div class="tab">
+            <button class="tablinks" onmouseover="openCity(event, '1')">Vị trí</button>
+            <button class="tablinks" onmouseover="openCity(event, '2')">Kích thước</button>
+            <button class="tablinks" onmouseover="openCity(event, '3')">Cấu trúc</button>
+            <button class="tablinks" onmouseover="openCity(event, '4')">Nhiệt độ</button>
+            <button class="tablinks" onmouseover="openCity(event, '5')">Khí quyên</button>
+            <button class="tablinks" onmouseover="openCity(event, '6')">Sự sống</button>
+            <button class="tablinks" onmouseover="openCity(event, '7')">Sự thật thú vị</button>
+    </div>
+        
+    <div id="1" class="tabcontent">
+        <h3 class="h3">- Vị trí:</h3>
+        <p class="h3">
+            + Là hành tinh đứng thứ 2 trong hệ mặt trời.  
+        </p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/SolarPlanets-vi.JPG/400px-SolarPlanets-vi.JPG" alt="">
+    </div>
+    
+    <div id="2" class="tabcontent">
+        <h3 class="h3">- Kích thước:</h3>
+        <p class="h3">+ Có kích thước gần bằng với Trái Đất với đường kính dài 12.104 km.</p> 
+        <img src="https://st.quantrimang.com/photos/image/2017/06/14/sao-kim-2.jpg" alt="">
+    </div>
+    
+    <div id="3" class="tabcontent">
+            <h3 class="h3">- Có cấu trúc tương tự như Trái Đất:</h3>
+            <p class="h3">+ Lõi hành tinh: giống như Trái Đất, lõi Sao Kim ít nhất ở trạng thái lỏng một phần bởi vì hai hành tinh có quá trình lạnh/tiêu tán nhiệt bên trong với cùng một tốc độ. <br>+ Lớp phủ: <br>+ Lớp vỏ: gồm hàng ngàn núi lửa, bao gồm cả montwell maxwell ( có chiều cao gần bằng đỉnh núi everest ). </p>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/InteriorOfVenus.svg/220px-InteriorOfVenus.svg.png" alt="">
+    </div>
+
+    <div id="4" class="tabcontent">
+        <h3 class="h3">- Nhiệt độ</h3>
+        <p class="h3">+ Là hành tinh nóng nhất trong hệ mặ trời ( lên tới 470 độ C ) do phần lớn bầu khí quyển của Sao Kim là carbon dioxide tạo nên hiện tượng hiệu ứng nhà kính cực lớn khiến bề mặt của hành tinh này nóng lên.</p>
+        <img src="https://cdn.mos.cms.futurecdn.net/dzxtQ2dXH9SVKztJTbAXSA-320-80.jpg" alt="" width="300" height="300">
+    </div>
+
+    <div id="5" class="tabcontent">
+            <h3 class="h3">- Khí quyển:</h3>
+            <p class="h3">
+                + Sao Kim có lớp khí quyển rất dày, chứa chủ yếu CO2 và lượng nhỏ N2. Lớp khí quyển này dày đến mức có thể tạo ra một áp lực bề mặt tương tự như áp lực ở khoảng gần 1km dưới lòng đại dương của trái đất. Áp lực này đủ nặng để có thể nghiền nát con người khi đang đứng trên bề mặt của sao kim. 
+                <br>+ Lớp khí dày chứa nhiều mây và mưa axit sunfuric diễn ra trên khắp hành tinh với tốc độ lên tới hơn 360km/giờ, nhanh hơn cả một số cơn bão cấp 5 </p> 
+            <img class="anh" src="https://i.khoahoc.tv/photos/image/2018/11/02/khi-quyen-cua-sao-kim.jpg" alt="" width="200" height="190" title="Khí quyển sao Kim chụp năm 1979 qua bước sóng tử ngoại từ tàu Pioneer Venus Orbiter.">
+        </div>
+
+
+    <div id="6" class="tabcontent">
+            <h3 class="h3">- Sự sống trên sao kim:</h3>
+            <p class="h3">
+                + Trong bầu khí quyển, ở độ cao gần 50km, nơi có nhiệt độ và áp suất bề mặt tương tự như bề mặt của trái đất, các nhà khoa học đã quan sát thấy những vệt tối kỳ lạ dường như đang hấp thụ bức xạ cao độ. Đây có thể là bằng chứng của sự sống vi sinh vật.
+            </p>
+    </div>
+
+    <div id="7" class="tabcontent">
+
+            <p class="h3">
+                + Sao kim phản chiếu 70% ánh sáng măt trời chiếu vào nó, đó là lý do tại sao sao kim tỏa sáng rực rỡ hơn bất kỳ hành tinh hay ngôi sao nào khác trên bầu trời đêm. 
+            </p>
+            <img src="http://loughrealake.com/wp-content/uploads/2016/01/Venus-1-Jan-16-880x640.jpg" alt="" width="750" height="350">
+    </div>
+
+    <div class="clearfix"></div>
+    
+    <script>
+    function openCity(evt, cityName) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        document.getElementById(cityName).style.display = "block";
+        evt.currentTarget.className += " active";
+    }
+    </script>
+</body>
+</html>
+

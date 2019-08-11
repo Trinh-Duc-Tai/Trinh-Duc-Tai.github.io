@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sao thiên vương</title>
+    <link rel="stylesheet" href="uranus.css">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:700&display=swap" rel="stylesheet">
+</head>
+<style>
+        * {box-sizing: border-box}
+        body {font-family: "Lato", sans-serif;}
+        
+        .tab {
+            float: left;
+            border: 1px solid rgb(255, 255, 255);
+            background-color: #000000;
+            width: 30%;
+            height: 400px;
+        }
+        .tab button {
+            display: block;
+            background-color: inherit;
+            color: rgb(255, 255, 255);
+            padding: 22px 16px;
+            width: 100%;
+            border: none;
+            outline: none;
+            text-align: left;
+            cursor: pointer;
+            font-size: 17px;
+        }
+        
+        .tab button:hover {
+            background-color: rgb(255, 255, 255);
+        }
+        
+        .tab button.active {
+            background-color: rgb(130, 192, 243);
+        }
+        
+        .tabcontent {
+            float: left;
+            padding: 0px 12px;
+            border: 1px solid rgb(255, 255, 255);
+            width: 70%;
+            border-left: none;
+            height: 400px;
+            display: none;
+        }
+        
+        .clearfix::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+</style>
+<body>
+    <div id="particles-js"></div> 
+    <div class="uranus">
+        <div></div>
+    </div>
+    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
+    <script src="uranus.js"></script>
+    <p class="h1">Sao thiên vương</p>
+    <div class="tab">
+            <button class="tablinks" onmouseover="openCity(event, '1')">Thông số</button>
+            <button class="tablinks" onmouseover="openCity(event, '2')">Khí quyển</button>
+            <button class="tablinks" onmouseover="openCity(event, '3')">Vành đai</button>
+            <button class="tablinks" onmouseover="openCity(event, '4')">Khí hậu</button>
+            <button class="tablinks" onmouseover="openCity(event, '5')">Vệ tinh</button>
+            <button class="tablinks" onmouseover="openCity(event, '6')">Thám hiểm</button>
+    </div>
+        
+    <div id="1" class="tabcontent">
+            <h3 class="h3">- Khối lượng:</h3>
+            <p class="h3">+ Khối lượng của sao Thiên Vương lớn hơn của Trái Đất gần 14,5 lần, và là hành tinh khí khổng lồ nhẹ nhất.
+            <h3 class="h3">- Đường kính:</h3>
+            <p class="h3">+ Đường kính của sao Thiên Vương lớn hơn sao Hải Vương khoảng 4 lần đường kính Trái đất.</p>
+            <h3 class="h3">- Khối lượng riêng:</h3>
+            <p class="h3">+ Khối lượng riêng trung bình bằng 1,27 g/cm3 và là hành tinh có mật độ trung bình nhỏ thứ hai, chỉ lớn hơn của Sao Thổ. Giá trị này cho thấy nó có thành phần chủ yếu gồm các loại băng, như nước, amoniac, và methane.</p>
+            <h3 class="h3">- Nội nhiệt:</h3>
+            <p class="h3">+ Nội nhiệt của sao Thiên Vương dường như thấp hơn so với các hành tinh khác; theo thuật ngữ thiên văn học, nó có thông lượng nhiệt thấp. Các nhà thiên văn vẫn chưa hiểu được tại sao nhiệt độ bên trong hành tinh này lại thấp như thế.</p>
+            <img src="https://i.khoahoc.tv/photos/image/2018/11/14/sao-thien-vuong.jpg?fbclid=IwAR3tCeeJUpEKOfIzRlY-rQtDj9juM_loIvHFEY91OCthLQ-ouyo_mND0jy0" alt="" width="350" height="200">
+        </div>
+        
+        <div id="2" class="tabcontent">
+            <h3 class="h3">- Khí quyển</h3>
+            <p class="h33">+ Khí quyển của sao Thiên Vương mặc dù tương tự như của sao Mộc và sao Thổ về những thành phần cơ bản như hiđrô và heli, nhưng chúng chứa nhiều "hợp chất dễ bay hơi" như nước, amoniac, và mêtan, cùng với lượng nhỏ các hidrocarbon.
+    
+                Tuy không có một bề mặt rắn cụ thể trong sao Thiên Vương, phần bao phủ chứa các khí bên ngoài mà có thể quan trắc từ xa được các nhà khoa học gọi là khí quyển.</p> 
+        </div>
+        
+        <div id="3" class="tabcontent">
+                <h3 class="h3">- Vành đai</h3>
+                <p class="h33">+ Hệ thống vành đai hành tinh chứa đa phần là các hạt phản xạ ánh sáng rất kém, với kích cỡ thay đổi từ vài micrô mét đến vài phần mét. Cho tới nay các nhà khoa học đếm được 13 vành đai trong hệ thống, vành sáng nhất có tên gọi vành ε. Ngoại trừ hai vành, còn lại đều có bề rộng rất hẹp— chúng thường chỉ rộng vài kilômét. Có thể tuổi của hệ thống vành đai còn khá trẻ; và thông qua tính động lực của chúng các nhà khoa học nghĩ rằng chúng không hình thành cùng với giai đoạn hình thành sao Thiên Vương. Vật chất trong các vành có thể là một phần sót lại của một vệ tinh (hoặc nhiều vệ tinh) đã bị vỡ nát sau những cú va chạm lớn. Từ rất nhiều mảnh vụn bắn ra sau các vụ chạm theo thời gian chỉ còn lại một số nhỏ những hạt bụi hay hòn đá nhỏ tồn tại trên quỹ đạo ổn định và hình thành lên hệ thống vành đai ngày nay.</p>
+        </div>
+    
+        <div id="4" class="tabcontent">
+            <h3 class="h3">- Khí hậu</h3>
+            <p class="h33">+ Quan sát qua bước sóng tử ngoại và khả kiến, khí quyển sao Thiên Vương hiện lên gần như đồng đều so với sự hoạt động mãnh liệt trong khí quyển của những hành tinh khí khổng lồ khác, ngay cả như sao Hải Vương, một hành tinh có nhiều đặc tính cấu trúc và thành phần giống với nó. Một cách giải thích cho sự tĩnh lặng trong khí quyển hành tinh đó là nội nhiệt của sao Thiên Vương dường như thấp hơn hẳn so với những hành tinh khác. Con tàu ghi lại được nhiệt độ thấp nhất trong khoảng lặng đối lưu (tropopause) bằng 49 K, và nó là hành tinh lạnh nhất trong Hệ Mặt Trời, lạnh hơn cả sao Hải Vương cho dù hành tinh này xa Mặt Trời hơn rất nhiều so với sSao Thiên Vương.</p>
+        </div>
+    
+        <div id="5" class="tabcontent">
+            <h3 class="h3">- Vệ tinh</h3>
+            <p class="h33">+ Cho tới nay các nhà thiên văn biết sao Thiên Vương có 27 vệ tinh tự nhiên.</p>
+        </div>
+    
+        <div id="6" class="tabcontent">
+            <h3 class="h3">- Thám hiểm</h3>
+            <p class="h33">+ Năm 1986, tàu không gian Voyager 2 bay liên hành tinh đã lướt qua sao Thiên Vương. Cho đến nay đến là con tàu duy nhất bay qua hành tinh này ở khoảng cách ngắn, và cũng chưa có một kế hoạch gửi một tàu nào đến thăm dò nó.
+    
+                Các nhà khoa học từng đề xuất kế hoạch gửi tàu Cassini đến sao Thiên Vương trong hội nghị về mở rộng chương trình thám hiểm của tàu năm 2009 nhưng cuối cùng kế hoạch này bị hủy bỏ. Nếu gửi đi, con tàu sẽ mất khoảng 20 năm hành trình từ sao Thổ đến sao Thiên Vương.</p>
+        </div>
+    
+
+    <div class="clearfix"></div>
+    
+    <script>
+    function openCity(evt, cityName) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        document.getElementById(cityName).style.display = "block";
+        evt.currentTarget.className += " active";
+    }
+    </script>
+</body>
+</html>
+

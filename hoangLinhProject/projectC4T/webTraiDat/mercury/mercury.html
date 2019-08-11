@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sao thủy</title>
+    <link rel="stylesheet" href="mercury.css">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:700&display=swap" rel="stylesheet">
+
+</head>
+<style>
+        * {box-sizing: border-box}
+        body {font-family: "Lato", sans-serif;}
+        
+        .tab {
+            float: left;
+            border: 1px solid rgb(255, 255, 255);
+            background-color: #000000;
+            width: 30%;
+            height: 450px;
+        }
+        .tab button {
+            display: block;
+            background-color: inherit;
+            color: rgb(255, 255, 255);
+            padding: 22px 16px;
+            width: 100%;
+            border: none;
+            outline: none;
+            text-align: left;
+            cursor: pointer;
+            font-size: 17px;
+        }
+        
+        .tab button:hover {
+            background-color: rgb(255, 255, 255);
+        }
+        
+        .tab button.active {
+            background-color: rgb(130, 192, 243);
+        }
+        
+        .tabcontent {
+            float: left;
+            padding: 0px 12px;
+            border: 1px solid rgb(255, 255, 255);
+            width: 70%;
+            border-left: none;
+            height: 650px;
+            display: none;
+        }
+        
+        .clearfix::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+</style>
+<body>
+    <div id="particles-js"></div> 
+    <div class="mercury">
+        <div></div>
+    </div>
+    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
+    <script src="mercury.js"></script>
+    <p class="h1">Sao thủy</p>
+
+    <div class="tab">
+            <button class="tablinks" onmouseover="openCity(event, '1')">Cấu tạo</button>
+            <button class="tablinks" onmouseover="openCity(event, '7')">Thông số</button>
+            <button class="tablinks" onmouseover="openCity(event, '2')">Khí quyển</button>
+            <button class="tablinks" onmouseover="openCity(event, '3')">Địa hình</button>
+            <button class="tablinks" onmouseover="openCity(event, '4')">Quỹ đạo</button>
+            <button class="tablinks" onmouseover="openCity(event, '5')">Vệ tinh</button>
+            <button class="tablinks" onmouseover="openCity(event, '6')">Thám hiểm</button>
+        </div>
+    </div>
+        
+    <div id="1" class="tabcontent">
+            <h3 class="h3">- Cấu tạo:</h3>
+            <p class="h3">+ Sao Thủy là một trong 4 hành tinh kiểu Trái đất trong Hệ Mặt Trời, và là hành tinh cấu tạo bằng đá giống Trái đất. 
+    
+    <br>+ Sao Thủy có thành phần cấu tạo khoảng 70% là kim loại và 30% silicat.
+    <br>+ Các nhà địa chất học ước tính rằng lõi của sao Thủy chiếm khoảng 42% thể tích của nó so với của Trái đất bằng 17%. Nghiên cứu gần đây đề xuất rằng sao Thủy có lõi nóng chảy.
+                
+    <br>+ Lõi của sao Thủy chứa nhiều sắt hơn bất kỳ hành tinh nào khác trong Hệ Mặt trời, và có nhiều giả thuyết đã được đưa ra để lý giải cho việc này. Giả thuyết được chấp nhận rộng rãi nhất cho rằng sao Thủy ban đầu có tỉ lệ silicat-kim loại giống với các thiên thạch chondrit phổ biến, được cho là vật chất tạo đá đặc trưng của Hệ Mặt Trời, và có khối lượng gấp khoảng 2,25 lần khối lượng hiện nay của nó.</p>
+        </div>
+        <div id="7" class="tabcontent">
+                <h3 class="h3">- Kích thước:</h3>
+                <p class="h3">+ Đây là hành tinh nhỏ nhất trong hệ Mặt Trời với bán kính tại xích đạo là 2.439,7km.
+                        <h3 class="h3">- Khối lượng riêng</h3>
+                    <p class="h3">+ Khối lượng riêng trung bình của sao Thủy là 5,427 g/cm3 cao thứ 2 trong Hệ Mặt Trời, chỉ nhỏ hơn khối lượng riêng Trái đất (5,515g/cm3) một chút. Nếu bỏ qua hiệu ứng áp lực nén hấp dẫn, các vật liệu trên sao Thủy có thể đặc hơn với khối lượng riêng khoảng 5,3 g/cm3 so với Trái đất trong trường hợp này là 4,4g/cm3.</p>
+            </div>
+        <div id="2" class="tabcontent">
+            <h3 class="h3">- Khí quyển:</h3>
+            <p class="h3">+ Mặc dù có kích thước nhỏ và vận tốc quay quanh trục chậm, Sao Thủy có một từ trường đáng chú ý và dường như phân bố trên toàn bộ hành tinh này.
+    
+                Từ trường của sao Thủy đủ mạnh để làm chệch hướng gió mặt trời xung quanh hành tinh này, tạo ra từ quyển.</p> 
+        </div>
+        
+        <div id="3" class="tabcontent">
+            <h3 class="h3">- Địa hình:</h3>
+            <p class="h3">+ Bề mặt sao Thủy có rất nhiều hố to nhỏ và lởm chởm như bề mặt Mặt Trăng, gồm các đồng bằng và hố va chạm lớn, cho thấy nó đã trải qua một thời gian yên tĩnh địa chất hàng tỷ năm.
+            <br>+ Sao Thủy đã bị bắn phá dữ dội bởi các sao chổi và thiên thạch trong một khoảng thời gian ngắn sau khi nó hình thành cách đây 4,6 tỉ năm, và trong một giai đoạn khác cách nay 3,8 tỉ năm trước. Trong giai đoạn bắn phá thứ hai, trên toàn bộ bề mặt hành tinh xuất hiện rất nhiều hố va chạm.
+            <h3 class="h3">- Hố và bồn địa va chạm: </h3>
+                <p class="h3">+ Các hố va chạm trên sao Thủy có đường kính từ những hốc nhỏ cho đến những hố nhiều vành rộng hàng trăm kilômét. Chúng đều ở trạng thái bị "phong hóa" dần, từ những hố tỏa tia tương đối mới cho đến những hố tồn tại từ lâu chỉ còn lại dấu vết mờ. Các hố va chạm trên sao Thủy khác rõ rệt so với hố va chạm trên Mặt Trăng bởi phạm vi vật liệu bị bắn ra nhỏ hơn sau những cú va chạm của thiên thạch, đây là hệ quả của trường hấp dẫn mạnh hơn của sao Thủy so với của Mặt Trăng.</p>
+                <h3 class="h3">- Đồng bằng trên sao Thủy:</b>
+                <p class="h3">+ Có hai vùng đồng bằng khác nhau về mặt địa chất trên sao Thủy:
+                <br>* Những đồng bằng liên miệng núi lửa  hố va chạm là những đặc điểm cổ nhất trên bề mặt, trước khi bề mặt hành tinh bị bắn phá bởi các thiên thạch. Những đồng bằng liên miệng núi lửa dường như bị làm mờ đi bởi những hố va chạm sớm hơn trước đó, và thường chỉ có các hố với đường kính dưới 30 km.
+                <br>* Những đồng bằng trơn phẳng là những vùng rộng lớn có cao độ thấp và hình dáng tương tự "biển" trên Mặt Trăng.</p>
+        </div>
+    
+        <div id="4" class="tabcontent">
+            <h3 class="h3">- Quỹ đạo</h3>
+            <p class="h3">+ Sao Thủy quay quanh trục của nó được ba vòng trong hai chu kỳ quỹ đạo quanh Mặt Trời, khi lấy các ngôi sao cố định làm hệ quy chiếu. Nếu nhìn từ Mặt Trời, trong hệ quy chiếu quay theo quỹ đạo chuyển động, sao Thủy chỉ quay được 1 vòng trong hai chu kỳ quỹ đạo của hành tinh. Tỉ số chính xác này là do ảnh hưởng của hiện tượng khóa thủy triều. Còn nếu một người đứng trên sao Thủy, họ sẽ chỉ thấy Mặt Trời di chuyển 1 lần trên nền trời, hay chỉ có 1 "ngày" trong 2 "năm" sao Thủy.</p>
+        </div>
+    
+        <div id="5" class="tabcontent">
+            <h3 class="h3">- Vệ tinh</h3>
+            <p class="h3">+ Tính đến tháng 7/2018, sao Mộc có 79 vệ tinh tự nhiên. Trong số này có 63 vệ tinh có đường kính nhỏ hơn 10 kilômét và chỉ được phát hiện từ 1975. Bốn vệ tinh lớn nhất, gọi là các vệ tinh "Galilei" là Io, Europa, Ganymede và Callisto.</p>
+        </div>
+    
+        <div id="6" class="tabcontent">
+            <h3 class="h3">- Thám hiểm</h3>
+            <p class="h3">+ Hai phi thuyền Trái đất đã từng ghé thăm sao Thủy: Mariner 10 bay vào năm 1974 và 1975; và MESSENGER, được phóng lên vào năm 2004, đã quay quanh sao Thủy hơn 4.000 lần trong bốn năm. Tàu cạn kiệt nguồn nhiên liệu và rơi vào bề mặt hành tinh này vào ngày 30 tháng 4 năm 2015.</p>
+            <img src="https://i.khoahoc.tv/photos/image/2008/01/17/messenger-art.jpg?fbclid=IwAR37z-Xid3pYEWXkSBWft1ROwSR2UCvnCUyMlVkZcM-OThDMKRTtkej6reM" alt="">
+        </div>
+
+    <div class="clearfix"></div>
+    
+    <script>
+    function openCity(evt, cityName) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        document.getElementById(cityName).style.display = "block";
+        evt.currentTarget.className += " active";
+    }
+    </script>
+</body>
+</html>
+
+

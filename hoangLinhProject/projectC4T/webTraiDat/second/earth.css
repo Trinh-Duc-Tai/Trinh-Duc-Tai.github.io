@@ -1,0 +1,35 @@
+body {
+    background: brown;
+    width: 100%;
+    height: 1000px;
+}
+
+#logo {
+    margin: 0 auto;
+    text-align: center;
+    left: 45%;
+    top: 45%;
+    position: absolute;
+}
+
+#nen {
+    width: 100%;
+    height: 800px;
+    background-image: url(250502.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 70%;
+
+}
+
+#earth{
+    height: 500px;
+    width: 100%;
+    background-image: url(earth.jpg);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.planet {
+    font-family: 'Crimson Pro', serif;
+    color: wheat;
+}

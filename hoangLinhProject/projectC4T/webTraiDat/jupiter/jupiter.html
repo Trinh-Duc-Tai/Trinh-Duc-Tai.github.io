@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sao mộc</title>
+    <link rel="stylesheet" href="jupiter.css">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:700&display=swap" rel="stylesheet">
+</head>
+<style>
+        * {box-sizing: border-box}
+        body {font-family: "Lato", sans-serif;}
+        
+        .tab {
+            float: left;
+            border: 1px solid rgb(255, 255, 255);
+            background-color: #000000;
+            width: 30%;
+            height: 650px;
+        }
+        .tab button {
+            display: block;
+            background-color: inherit;
+            color: rgb(255, 255, 255);
+            padding: 22px 16px;
+            width: 100%;
+            border: none;
+            outline: none;
+            text-align: left;
+            cursor: pointer;
+            font-size: 17px;
+        }
+        
+        .tab button:hover {
+            background-color: rgb(255, 255, 255);
+        }
+        
+        .tab button.active {
+            background-color: rgb(130, 192, 243);
+        }
+        
+        .tabcontent {
+            float: left;
+            padding: 0px 12px;
+            border: 1px solid rgb(255, 255, 255);
+            width: 70%;
+            border-left: none;
+            height: 650px;
+            display: none;
+        }
+        
+        .clearfix::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+</style>
+
+<body>
+    <div id="particles-js"></div> 
+    <div class="jupiter">
+        <div></div>
+    </div>
+    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
+    <script src="jupiter.js"></script>
+
+    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
+    <script src="earth.js"></script>
+    <script src="earth1.js"></script>
+    <p class="h1">Sao mộc</p>
+    
+<div class="tab">
+        <button class="tablinks" onmouseover="openCity(event, '1')">Cấu tạo</button>
+        <button class="tablinks" onmouseover="openCity(event, '10')">Thông số</button>
+        <button class="tablinks" onmouseover="openCity(event, '2')">Khí quyển</button>
+        <button class="tablinks" onmouseover="openCity(event, '3')">Mây</button>
+        <button class="tablinks" onmouseover="openCity(event, '4')">Vết đỏ lớn</button>
+        <button class="tablinks" onmouseover="openCity(event, '5')">Vành đai</button>
+        <button class="tablinks" onmouseover="openCity(event, '6')">Từ trường</button>
+        <button class="tablinks" onmouseover="openCity(event, '7')">Quỹ đạo</button>
+        <button class="tablinks" onmouseover="openCity(event, '8')">Vệ tinh</button>
+        <button class="tablinks" onmouseover="openCity(event, '9')">Thám hiểm</button>
+    </div>
+    
+    <div id="1" class="tabcontent">
+            <h3 class="h3">- Cấu tạo</h3>
+            <p class="h3">+ Sao Mộc chủ yếu chứa vật chất ở trạng thái khí và lỏng. 
+                <br>+ Gồm 3 lớp:<br>* Lõi hành tinh <br>* Lớp phủ hidro kim loại, mở rộng ra khoảng 78% bán kính sao mộc <br>* Lớp khí quyển hidro trong suốt
+            </p>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Jupiter_interior.png/220px-Jupiter_interior.png" alt="">
+        </div>
+
+        <div id="10" class="tabcontent">
+                <h3 class="h3">- Khối lượng: </h3>
+                <p class="h3">+ Là hành tinh khí khổng lồ với khối lượng bằng một phần nghìn của Mặt Trời nhưng lại bằng 2.5 lần tổng khối lượng của tất cả các hành tinh khác trong Hệ Mặt Trời cộng lại.</p> 
+                <h3 class="h3">- Khối lượng riêng: </h3>
+                <p class="h3">+  Khối lượng riêng trung bình của hành tinh bằng 1,326 g/cm3, và có khối lượng riêng lớn nhất trong số bốn hành tinh khí khổng lồ. Tuy thế mật độ này nhỏ hơn bất kỳ khối lượng riêng của các hành tinh đất đá.</p> 
+                <h3 class="h3">- Kích thước </h3>
+                <p class="h3">+  Là hành tinh khí khổng lồ lớn nhất trong hệ Mặt Trời với đường kính 142.984 km tại xích đạo.</p> 
+                
+            </div>
+        
+        <div id="2" class="tabcontent">
+            <h3 class="h3">- Khí quyển</h3>
+            <p class="h3">+ Sao Mộc cũng có bầu khí quyển lớn nhất trong Hệ Mặt Trời, mở rộng hơn 5000 km theo độ cao. Do sao Mộc không có bề mặt rắn, đáy của bầu khí quyển được coi là nơi có áp suất khí quyển bằng 10 bar, bằng 10 lần áp suất khí quyển tại bề mặt Trái Đất.</p> 
+        </div>
+        
+        <div id="3" class="tabcontent">
+            <h3 class="h3">- Mây</h3>
+            <p class="h3">+ Sao Mộc bị bao phủ vĩnh cửu các tầng mây chứa tinh thể amoniac và có thể amonium hiđrô sunfit.</p>
+        </div>
+    
+        <div id="4" class="tabcontent">
+                <h3 class="h3">- Vết đỏ lớn</h3>
+                <p class="h3">+ Đặc trưng nổi tiếng nhất của sao Mộc có lẽ là Vết Đỏ Lớn, một cơn bão có chiều quay ngược với chiều tự quay của sao Mộc và đường kính thường lớn hơn Trái Đất, nằm ở vĩ độ Nam 22° dưới đường xích đạo. Nó đã tồn tại từ ít nhất năm 1831, và có thể là từ 1665.</p>
+        </div>
+    
+        <div id="5" class="tabcontent">
+                <h3 class="h3">- Vành đai</h3>
+                <p class="h3">+ Sao Mộc có hệ thống vành đai hành tinh mờ bao gồm ba vành chính: vành hạt trong cùng hay còn gọi là quầng, vành đai chính tương đối sáng, và vành đai mỏng ngoài cùng. Thành phần vật chất của những vành này chủ yếu là bụi, chứ không là băng đá như vành đai sao Thổ.</p>
+        </div>
+    
+        <div id="6" class="tabcontent">
+            <h3 class="h3">- Từ trường</h3>
+            <p class="h3">+ Từ trường của sao Mộc mạnh gấp 14 lần từ trường của Trái Đất và nó cũng là từ trường lớn nhất trong Hệ Mặt Trời.</p>
+        </div>
+    
+        <div id="7" class="tabcontent">
+            <h3 class="h3">- Quỹ đạo</h3>
+            <p class="h3">+ Sao Mộc là hành tinh duy nhất có khối tâm với Mặt Trời nằm bên ngoài thể tích của Mặt Trời, tuy chỉ chưa tới 7% bán kính Mặt Trời. Khoảng cách trung bình giữa sao Mộc và Mặt Trời là 778 triệu km (bằng 5,2 lần khoảng cách từ Trái Đất đến Mặt Trời, hoặc 5,2 AU) và nó hoàn thành một vòng quỹ đạo bằng 11,86 năm Trái Đất.</p>
+        </div>
+    
+        <div id="8" class="tabcontent">
+            <h3 class="h3">-Vệ tinh</h3>
+            <p class="h3">+ Tính đến tháng 7/2018, sao Mộc có 79 vệ tinh tự nhiên. Trong số này có 63 vệ tinh có đường kính nhỏ hơn 10 kilômét và chỉ được phát hiện từ 1975. Bốn vệ tinh lớn nhất, gọi là các vệ tinh "Galilei" là Io, Europa, Ganymede và Callisto.</p>
+        </div>
+    
+        <div id="9" class="tabcontent">
+            <h3 class="h3">- Thám hiểm</h3>
+            <p class="h3">+ Từ 1973 một số tàu vũ trụ tự động đã đến gần sao Mộc, nổi bật là tàu thăm dò Pioneer 10, con tàu đầu tiên đến đủ gần hành tinh này và gửi về các bức ảnh cũng như thông tin về hành tinh lớn nhất trong Hệ Mặt Trời.
+                Năm 2000, tàu Cassini, trên hành trình đến sao Thổ, bay qua sao Mộc và gửi về một số bức ảnh có độ phân giải tốt nhất đối với hành tinh này từ trước đến nay. Ngày 19 tháng 12 năm 2000, tàu đã chụp ảnh vệ tinh Himalia, nhưng độ phân giải quá thấp để các nhà khoa học nhận ra được chi tiết bề mặt vệ tinh này.
+                Cho tới nay chỉ có tàu Galileo là tàu quay quanh sao Mộc, khi nó đi vào quỹ đạo quanh hành tinh ngày 7 tháng 12 năm 1995. Nó thăm dò được hơn 7 năm, thực hiện nhiều lần bay quan các vệ tinh Galilei và vệ tinh Amalthea.
+                NASA hiện tại đang có một phi vụ bay tới sao Mộc nhằm nghiên cứu chi tiết các vùng cực cũng như khí quyển hành tinh. Tàu Juno phóng lên từ tháng 8 năm 2011, và đã đi vào quỹ đạo cực sao Mộc cuối năm 2016. Trong tương lai, phi vụ kế hoạch đã được phê chuẩn nhằm nghiên cứu hệ Mộc Tinh do cơ quan ESA đứng đầu, phi vụ Jupiter Icy Moon Explorer (JUICE), với thời gian dự định phóng lên năm 2022 và tới sao Mộc khoảng năm 2030, nghiên cứu bốn vệ tinh Galileo và đặc biệt là Europa.</p>
+        </div>    
+
+    <div class="clearfix"></div>
+    
+    <script>
+    function openCity(evt, cityName) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        document.getElementById(cityName).style.display = "block";
+        evt.currentTarget.className += " active";
+    }
+    </script>
+        
+
+</body>
+</html>
+
+

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mặt trời</title>
+    <link rel="stylesheet" href="sun.css">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:700&display=swap" rel="stylesheet">
+</head>
+
+<style>
+        * {box-sizing: border-box}
+        body {font-family: "Lato", sans-serif;}
+        
+        .tab {
+            float: left;
+            border: 1px solid rgb(255, 255, 255);
+            background-color: #000000;
+            width: 30%;
+            height: 350px;
+        }
+        .tab button {
+            display: block;
+            background-color: inherit;
+            color: rgb(255, 255, 255);
+            padding: 22px 16px;
+            width: 100%;
+            border: none;
+            outline: none;
+            text-align: left;
+            cursor: pointer;
+            font-size: 17px;
+        }
+        
+        .tab button:hover {
+            background-color: rgb(255, 255, 255);
+        }
+        
+        .tab button.active {
+            background-color: rgb(130, 192, 243);
+        }
+        
+        .tabcontent {
+            float: left;
+            padding: 0px 12px;
+            border: 1px solid rgb(255, 255, 255);
+            width: 70%;
+            border-left: none;
+            height: 1250px;
+            display: none;
+        }
+        
+        .clearfix::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+</style>
+<body>
+    <div id="particles-js"></div> 
+    <div class="sun">
+        <div></div>
+    </div>
+    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
+    <script src="sun.js"></script>
+    <p class="h1">Mặt trời</p>
+
+    <div class="tab">
+            <button class="tablinks" onmouseover="openCity(event, '1')">Cấu tạo</button>
+            <button class="tablinks" onmouseover="openCity(event, '2')">Kích thước</button>
+            <button class="tablinks" onmouseover="openCity(event, '3')">Bão</button>
+            <button class="tablinks" onmouseover="openCity(event, '4')">Các vệ tinh đầu tiên</button>
+    </div>
+        
+    <div id="1" class="tabcontent">
+        <h3 class="h3">- Cấu tạo: </h3>
+        <p class="h33">+ Lõi: * Lõi của Mặt Trời được coi là chiếm khoảng 0,2 tới 0,25 bán kính Mặt Trời. Nó có mật độ lên tới 150g/cm³ và có nhiệt độ gần 13.600.000 độ K. 
+<br>+ Vùng bức xạ: * Trong vùng từ 0,25 tới khoảng 0,7 bán kính Mặt Trời, vật liệu Mặt Trời đủ nóng và đặc đủ để bức xạ nhiệt chuyển được nhiệt độ từ trong lõi ra ngoài.
+<br>+ Vùng đối lưu: * Trong lớp ngoài của Mặt Trời, từ bề mặt xuống xấp xỉ 200.000 km (hay 70% bán kính Mặt Trời), plasma Mặt Trời không đủ đặc hay đủ nóng để chuyển năng lượng nhiệt từ bên trong ra ngoài bằng bức xạ. Vì thế, đối lưu nhiệt diễn ra khi các cột nhiệt mang vật liệu nóng ra bề mặt của Mặt Trời. Khi vật liệu lạnh đi ở bề mặt, nó đi xuống dưới đáy vùng đối lưu, để nhận thêm nhiệt từ đỉnh vùng bức xạ. 
+<br>+ Quang quyển: * Bề mặt nhìn thấy được của Mặt Trời hay quang quyển là lớp mà ở bên dưới nó, Mặt Trời trở nên mờ đục với ánh sáng nhìn thấy được. Trên quang quyển ánh sáng của Mặt Trời tự do đi vào không gian, và năng lượng của nó thoát hoàn toàn khỏi Mặt Trời. Quang quyển thực tế dày từ hàng chục tới hàng trăm kilômét, mờ hơn chút ít so với không khí trên Trái Đất.
+<br>+ Khí quyển: * Các phần bên trên quang quyển của Mặt Trời được gọi chung là khí quyển Mặt Trời. gồm năm vùng chính: nhiệt độ tối thiểu, sắc quyển, vùng chuyển tiếp, vành nhật hoa, và nhật quyển. </p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Sun_diagram.svg/300px-Sun_diagram.svg.png" alt="">
+    <img class="anh2" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/The_solar_interior.svg/220px-The_solar_interior.svg.png" alt="">
+        <p class="h333">Mô hình cấu trúc Mặt Trời:<br>
+            1. Lõi <br> 
+            2. Vùng bức xạ <br>
+            3. Vùng đối lưu<br>
+            4. Quang quyển <br>
+            5. Sắc quyển <br>
+            6. Vành nhật hoa (Quầng) <br>
+            7. Vết đen Mặt Trời<br>
+            8. Hạt quang quyển (Đốm)<br>
+            9. Vòng plasma</p>
+    </div>
+    
+    <div id="2" class="tabcontent">
+        <h3 class="h3">- Kích thước:</h3>
+        <p class="h3">+ Đường kính: 1.391.000 km <br>+ Khối lượng mặt trời: 1,9891 ×1030 kg, lớn hơn so với Trái đất khoảng 330.000 lần.</p> 
+    </div>
+    
+    <div id="3" class="tabcontent">
+        <p class="h3">- Mặt trời có từ trường rất mạnh, đó là lý do tại sao xảy ra hiện tượng bão từ. Trong khoảng thời gian hiện tượng bão từ xảy ra, chúng ta hoàn toàn có thể nhìn thấy bão từ trên Mặt trời thông qua hình ảnh: chúng là những nốt màu đen nhỏ hay còn gọi là “Sunspots – vết đen Mặt trời”. Trong cơn bão từ, các đường sức từ sẽ xoắn và quay mạnh tương tự như lốc xoáy trên Trái Đất.</p>
+    </div>
+
+    <div id="4" class="tabcontent">
+            <p class="h3">- Các vệ tinh đầu tiên được thiết kế để giám sát Mặt Trời là Pioneer 5, 6, 7, 8 và 9 của NASA, được phóng lên trong khoảng 1959 - 1968. Các vệ tinh mang máy dò này quay quanh Mặt Trời với khoảng cách tương tự như vệ tinh bay quanh Trái Đất, và thực hiện các đo đạc chi tiết đầu tiên về gió Mặt Trời và trường từ Mặt Trời. Pioneer 9 vận hành trong thời gian tương đối dài và truyền dữ liệu về đến năm 1987.</p>
+    </div>
+
+
+
+    <div class="clearfix"></div>
+    
+    <script>
+    function openCity(evt, cityName) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        document.getElementById(cityName).style.display = "block";
+        evt.currentTarget.className += " active";
+    }
+    </script>
+</body>
+</html>
+

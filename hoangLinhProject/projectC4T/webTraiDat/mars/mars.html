@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sao hỏa</title>
+    <link rel="stylesheet" href="mars.css">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:700&display=swap" rel="stylesheet">
+</head>
+
+<style>
+        * {box-sizing: border-box}
+        body {font-family: "Lato", sans-serif;}
+        
+        .tab {
+            float: left;
+            border: 1px solid rgb(255, 255, 255);
+            background-color: #000000;
+            width: 30%;
+            height: 350px;
+        }
+        .tab button {
+            display: block;
+            background-color: inherit;
+            color: rgb(255, 255, 255);
+            padding: 22px 16px;
+            width: 100%;
+            border: none;
+            outline: none;
+            text-align: left;
+            cursor: pointer;
+            font-size: 17px;
+        }
+        
+        .tab button:hover {
+            background-color: rgb(255, 255, 255);
+        }
+        
+        .tab button.active {
+            background-color: rgb(130, 192, 243);
+        }
+        
+        .tabcontent {
+            float: left;
+            padding: 0px 12px;
+            border: 1px solid rgb(255, 255, 255);
+            width: 70%;
+            border-left: none;
+            height: 800px;
+            display: none;
+        }
+        
+        .clearfix::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+</style>
+<body>
+    <div id="particles-js"></div> 
+    <div class="mars">
+        <div></div>
+    </div>
+    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
+    <script src="mars.js"></script>
+    <p class="h1">Sao hỏa</p>
+    <div class="tab">
+            <button class="tablinks" onmouseover="openCity(event, '1')">Cấu trúc</button>
+            <button class="tablinks" onmouseover="openCity(event, '2')">Kích thước</button>
+            <button class="tablinks" onmouseover="openCity(event, '3')">Khí hậu</button>
+            <button class="tablinks" onmouseover="openCity(event, '4')">Khí quyển</button>
+            <button class="tablinks" onmouseover="openCity(event, '5')">Sự sống</button>
+    </div>
+        
+    <div id="1" class="tabcontent">
+        <h3 class="h3">- Cấu trúc:</h3>
+        <p class="h3">+ Bề mặt Sao Hỏa có thành phần chủ yếu từ đá bazan. Đa phần bề mặt của hành tinh được bao phủ một lớp bụi mịn, dày của sắt(III) ôxít.
+            <br>+ Chiều dày trung bình của lớp vỏ Sao Hỏa vào khoảng 50 km, với chiều dày lớn nhất bằng 125 km.
+            <br>+  lõi Hỏa Tinh có bán kính khoảng 1.480 km, với thành phần chủ yếu là sắt với khoảng 14–17% lưu huỳnh. Lõi sắt sunfit này có trạng thái lỏng một phần, với sự tập trung các nguyên tố nhẹ hơn cao gấp hai lần so với lõi của Trái Đất. Lõi được bao quanh bởi một lớp phủ silicat.
+        </p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Mars_interior.jpg/220px-Mars_interior.jpg" alt="">
+    </div>
+    
+    <div id="2" class="tabcontent">
+        <h3 class="h3">- Kích thước:</h3>
+        <p class="h3">+ Sao hỏa có bán kính 3.389,5 km với diện tích bề mặt là 144.800.000 km²</p> 
+    </div>
+    
+    <div id="3" class="tabcontent">
+        <h3 class="h3">- Khí hậu: </h3>
+        <p class="h3">+ Trong số các hành tinh trong hệ Mặt Trời, các mùa trên Sao Hỏa là gần giống với trên Trái Đất nhất, do sự gần bằng về độ nghiêng của trục tự quay ở hai hành tinh.
+            <br>+ Độ dài các mùa trên Hỏa Tinh bằng khoảng hai lần trên Trái Đất, do khoảng cách từ Sao Hỏa đến Mặt Trời lớn hơn dẫn đến một năm trên hành tinh này bằng khoảng hai năm Trái Đất.
+        </p>
+        <h3 class="h3">- Nhiệt độ:</h3>
+        <p class="h3">+ Nhiệt độ Sao Hỏa thay đổi từ nhiệt độ rất thấp -87 °C trong thời gian mùa đông ở các cực cho đến -5 °C vào mùa hè. Biên độ nhiệt độ lớn như vậy là vì bầu khí quyển quá mỏng không thể giữ lại được nhiệt lượng từ Mặt Trời do áp suất khí quyển thấp. Hành tinh cũng nằm xa Mặt Trời gấp 1,52 lần so với Trái Đất, do vậy nó chỉ nhận được khoảng 43% lượng ánh sáng so với Trái Đất.</p>
+    <h3 class="h3">- Bão:</h3>
+    <p class="h3">+ Sao Hỏa cũng có những trận bão bụi lớn nhất trong hệ Mặt Trời. Chúng có thể biến đổi từ một cơn bão trong một vùng nhỏ cho đến hình thành cơn bão khổng lồ bao phủ toàn bộ hành tinh. Những trận bão bụi thường xuất hiện khi Sao Hỏa nằm gần Mặt Trời và khi đó nhiệt độ toàn cầu cũng tăng lên do tác động của bão bụi.</p>
+    <img src="https://upload.wikimedia.org/wikipedia/vi/thumb/4/41/B%C3%A3o_b%E1%BB%A5i_Sao_H%E1%BB%8Fa.jpg/400px-B%C3%A3o_b%E1%BB%A5i_Sao_H%E1%BB%8Fa.jpg" alt="" title="Ảnh chụp qua kính thiên văn Hubble so sánh Sao Hỏa trước và sau trận bão bụi bao phủ toàn cầu." width="400" height="250">
+</div>
+
+    <div id="4" class="tabcontent">
+            <h3 class="h3">- Khí quyển</h3>
+            <p class="h3">+ Khí quyển Sao Hoả được tạo thành chủ yếu bởi khí CO2. Nó rất mỏng, với khối lượng tổng cộng là 2,5 × 1016 kilôgam, thấp hơn 1% khối lượng khí quyển Trái Đất (do đó áp suất cũng thấp hơn 1% áp suất khí quyển Trái Đất).
+                    <br>+ Nhiều nhà khoa học cho rằng trong quá khứ, từng tồn tại bầu khí quyển dày hơn nhiều và nước từng chảy thành sông đổ ra biển trên Sao Hỏa. Ngày nay chỉ còn lại một lượng rất ít hơi nước được thấy trong tầng khí quyển thấp của Sao Hỏa, thỉnh thoảng tụ lại thành những dải mây nước đá hoặc, trong vài trường hợp hiếm, các cơn sương mù nước đá.
+                    <br>+ Cũng được tìm thấy với lượng nhỏ trong khí quyển Sao Hỏa là nitơ (2,7%), ôxy (0.13%), CO (0.08%), và các khí hiếm như neon (2,5 ppm), argon (1,6%), krypton (0.3ppm) và xenon (0,08ppm).</p>
+    </div>
+
+    <div id="5" class="tabcontent">
+            <h3 class="h3">- Sự sống</h3>
+            <p class="h3">
+                    + Sao Hỏa một thời là hành tinh có bầu khí quyển rất có thể đã hỗ trợ sự sống. Tuy nhiên, tác động kết hợp của gió mặt trời và phóng xạ đã tước bỏ mất bầu khí quyển của hành tinh này, biến nó trở thành một vùng hoang mạc khô cằn như hiện nay. Bầu khí quyển hiện nay của sao Hỏa quá lạnh và quá mỏng để có thể hỗ trợ nước ở dạng lỏng, một điều kiện thiết yếu để tồn tại sự sống. Vì vậy mặc dù một số phép đo cho biết có khả năng xuất hiện nước trên sao Hỏa, nhưng có ít hơn nhiều so với trên Trái đất, và ở đó lạnh đến mức phần lớn nước có lẽ không phải là chất lỏng mà là băng đá. 
+                    <br>+ Năm 1976, NASA hạ cánh tàu vũ trụ robot có tên Viking 1 và Viking 2 trên Sao Hỏa. Trong số các thí nghiệm nghiên cứu về sự sống vi sinh vật trên sao hỏa, hầu hết các nhà khoa học đồng ý rằng kết quả không có bất kỳ dấu hiệu của sự sống.</p>
+    </div>
+
+    <div class="clearfix"></div>
+    
+    <script>
+    function openCity(evt, cityName) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        document.getElementById(cityName).style.display = "block";
+        evt.currentTarget.className += " active";
+    }
+    </script>
+</body>
+</html>
+
+
