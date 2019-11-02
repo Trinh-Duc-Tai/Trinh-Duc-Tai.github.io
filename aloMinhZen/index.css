@@ -1,0 +1,31 @@
+body {
+    background-color: #000;    
+    margin: 0;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+  }
+
+.blo {
+    font-family: Comic Sans MS;
+    color: #ff99cc;
+    position: absolute;
+    top:262px;
+    left:580px;
+    font-size: 35px;
+    display: inline-block;
+}
+.clo {
+    font-family: Comic Sans MS;
+    color: #ff99cc;
+    position: absolute;
+    top:318px;
+    left:775px;
+    font-size: 6px;
+    display: inline-block;
+}
+.baCham{
+    position: absolute;
+    color:#ff99cc;
+    right:10px;
+}
