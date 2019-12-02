@@ -130,11 +130,31 @@ a.navbar-brand {
     line-height: 40px; /* Set the line-height to center the text inside the skill bar, and to expand the height of the container */
     color: white; /* White text color */
 }
-
-.html {width: 60%; background-color: #f53b57;} /* Green */
-.css {width: 60%; background-color: rgb(23, 228, 235);} /* Blue */
-.js {width: 40%; background-color: #FF9800;} /* Red */
-.py {width: 75%; background-color: rgb(10, 111, 243);} /* Red */
+/* bo sung skill  */
+.skill{
+    position: relative;
+    height: 40px;
+    margin: 0 10px;
+    overflow: hidden;
+}
+.skill>.skills{
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* width: 95%; */
+    height: 100%;
+    animation: animate 22s ease-in-out forwards;
+}
+@keyframes animate{
+    from{
+        width: 0;
+    }
+}
+/* het bo sung skill  */
+.html {width: 65%; background-color: #f53b57;} /* Green */
+.css {width: 65%; background-color: rgb(23, 228, 235);} /* Blue */
+.js {width: 45%; background-color: #FF9800;} /* Red */
+.py {width: 70%; background-color: rgb(10, 111, 243);} /* Red */
 .php {width: 30%; background-color: rgb(92, 22, 255);} /* Dark Grey */
 .pts {width: 50%; background-color: rgb(0, 81, 134);} /* Green */
 .ai {width: 30%; background-color:#FF5722 ;} /* Blue */
@@ -458,3 +478,4 @@ button:hover:before,button:hover:after{
 	transition:800ms ease all;
 }
 /*het nut contact*/
+
