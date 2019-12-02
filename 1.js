@@ -202,3 +202,15 @@ window.requestAnimFrame = (function () {
             height = canvas.height = window.innerHeight;
         };
     })(); 
+
+
+// progressBar 
+$(window).scroll(function(){
+    var scroll = $(window).scrollTop(),
+    dh = $(document).height(),
+    wh = $(window).height();
+    scrollPercent = (scroll / (dh-wh)) * 100;
+    $('#progressBar').css('height', scrollPercent +  '%');
+})
+
+// het progress Bar 
