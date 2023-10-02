@@ -493,3 +493,19 @@ button:hover:before,button:hover:after{
     background: linear-gradient(to top, #fcb045, #fd1d1d, #833ab4);
 }
 /* het css cho progress bar  */
+/* --------- css cho màn điện thoại --------------- */
+@media (max-width: 667px) {
+	.khoitt1 {
+		height: 140%;
+	}
+	.cucto {
+		padding-right: 40px;
+	}
+	.khoispdh .cucto{
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		align-items: center;
+	}
+	/* Thêm các thiết lập CSS khác cho chế độ xem điện thoại */
+}
