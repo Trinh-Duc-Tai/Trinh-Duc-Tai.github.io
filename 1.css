@@ -504,7 +504,7 @@ button:hover:before,button:hover:after{
 /* --------- css cho màn điện thoại --------------- */
 @media (max-width: 667px) {
 	.khoitt1 {
-		height: 90%;
+		height: 140%;
 	}
 	.cucto {
 		padding-right: 40px;
