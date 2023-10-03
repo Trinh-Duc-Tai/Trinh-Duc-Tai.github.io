@@ -69,8 +69,15 @@ a.navbar-brand {
 	background-image: url(f2.png);
 
 }
+.cot2_3 img{
+	transform: scale(1.5);
+	margin-left: 30px;
+}
 .bokhoikn.quatrinh .layer1{
 	animation: zoomlen 25s forwards; /*forwards la chuyen dong ve phia trc*/
+}
+.bokhoikn.quatrinh .layer2{
+	height: 1250px;
 }
 .bokhoikn:hover .layer1{
 	animation: zoomlen 25s forwards; /*forwards la chuyen dong ve phia trc*/
@@ -506,6 +513,30 @@ button:hover:before,button:hover:after{
 		justify-content: center;
 		flex-direction: column;
 		align-items: center;
+	}
+	#khoiedu .row{
+		display: flex;
+		flex-direction: column;
+		padding-top: 0;
+	}
+	.bokhoikn.quatrinh .layer2{
+		height: 2668px;
+	}
+	#khoiedu .tieudeto{
+		margin-top: 50px;
+	}
+	.cot1_3{
+		/* background-color: blue; */
+	}
+	.cot2_3 img{
+		padding: 0;
+		margin-top: -140px;
+		height: 100%;
+		margin-left: 30px;
+	}
+	
+	.cot3_3{
+		margin-top: 143px;
 	}
 	/* Thêm các thiết lập CSS khác cho chế độ xem điện thoại */
 }
