@@ -200,7 +200,7 @@ a.nuthire.btn.btn-primary:hover{
 	animation-iteration-count: infinite;
 }
 .khoitt1 {
-    height: 100%;
+    height: 75%;
     width: 100%;
     background: #e9585f;
     position: relative;
@@ -364,11 +364,12 @@ article .thongtin{
 	margin-left: -11px;
 	z-index:2;
 	cursor: pointer;
-	transition: 1s;
+	transition: 5s;
+	margin-bottom: 10px;
 }
 .xuong:hover{
 	/*position: absolute;*/
-	bottom: 3%;
+	bottom: 20px;
 }
 .xuong:after{
 	content:"";
@@ -503,10 +504,16 @@ button:hover:before,button:hover:after{
 /* --------- css cho màn điện thoại --------------- */
 @media (max-width: 667px) {
 	.khoitt1 {
-		height: 140%;
+		height: 90%;
 	}
 	.cucto {
 		padding-right: 40px;
+	}
+	.khoispdh {
+		margin-top: -80px;
+	}
+	.khoispdh .tieudeto {
+		margin-bottom: 25px;
 	}
 	.khoispdh .cucto{
 		display: flex;
@@ -537,6 +544,18 @@ button:hover:before,button:hover:after{
 	
 	.cot3_3{
 		margin-top: 143px;
+	}
+	.khoicaro{
+		display: none;
+	}
+	.khoitotinh{
+		display: none;
+	}
+	.khoilh{
+		margin-top: -88px;
+	}
+	.khoilh .tieudeto{
+		margin-bottom: 25px;
 	}
 	/* Thêm các thiết lập CSS khác cho chế độ xem điện thoại */
 }
