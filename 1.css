@@ -559,3 +559,57 @@ button:hover:before,button:hover:after{
 	}
 	/* Thêm các thiết lập CSS khác cho chế độ xem điện thoại */
 }
+
+
+/* ------- Css for cursor  ---- */
+.cursor {
+    display: block;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%);
+    border-radius: 50%;
+    background: transparent;
+    pointer-events: none;
+    z-index: 111;
+    border: 1px solid #e17055;
+    transition: all 0.2s ease-out;
+    animation: moveCursor1 .5s infinite alternate;
+}
+
+.expand {
+    background: transparent;
+    animation: moveCursor2 .5s forwards;
+    border: 1px solid #000;
+}
+
+@keyframes moveCursor1 {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(.8);
+    }
+}
+
+@keyframes moveCursor2 {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(2);
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 0;
+    }
+}
+
+
+
+/* ------------ */
