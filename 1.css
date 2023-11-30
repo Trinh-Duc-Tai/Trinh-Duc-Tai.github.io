@@ -574,15 +574,16 @@ button:hover:before,button:hover:after{
     background: transparent;
     pointer-events: none;
     z-index: 111;
-    border: 1px solid #e17055;
+    border: 1px solid #4cd137;
     transition: all 0.2s ease-out;
     animation: moveCursor1 .5s infinite alternate;
+	
 }
 
 .expand {
     background: transparent;
     animation: moveCursor2 .5s forwards;
-    border: 1px solid #000;
+    border: 1px solid #00cec9;
 }
 
 @keyframes moveCursor1 {
