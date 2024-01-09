@@ -1,87 +1,5 @@
 /* Thêm vào cuối tệp styles.css */
 
-
-.close {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    font-size: 30px;
-    color: #fff;
-    cursor: pointer;
-}
-/* Thay đổi trong tệp styles.css */
-.modal {
-    display: none;
-    width: 60%;
-    height: 50%;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 80%;
-    max-width: 800px;
-    background-color: rgba(0, 0, 0, 0.8);
-    padding: 20px;
-    text-align: center;
-    box-sizing: border-box;
-    border-radius: 10px;
-}
-
-.modal-content {
-    display: block;
-    margin: 0 auto;
-    max-width: 100%;
-    max-height: 100%;
-}
-
-.close {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    font-size: 30px;
-    color: #fff;
-    cursor: pointer;
-}
-/* Thêm vào cuối tệp styles.css */
-
-/* ------------- */
-/* Thêm vào cuối tệp styles.css */
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 10px;
-    padding: 20px;
-}
-
-.grid-item {
-    overflow: hidden;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-}
-
-.grid-item img {
-    width: 100%;
-    height: auto;
-    display: block;
-    transition: transform 0.3s ease; /* Hiệu ứng chuyển động khi hover */
-}
-
-.grid-item:hover img {
-    transform: scale(1.1); /* Kích thước tăng lên khi hover */
-}
-/* --------- */
-.grid-item img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover; /* Hiển thị toàn bộ ảnh mà không thay đổi tỷ lệ khung hình */
-    display: block;
-    transition: transform 0.3s ease; /* Hiệu ứng chuyển động khi hover */
-}
-
-.grid-item:hover img {
-    transform: scale(1.1); /* Kích thước tăng lên khi hover */
-}
-
 /* ----------- css new  */
 .baoTieuDe{
     display: flex;
@@ -125,6 +43,14 @@
     align-items: center;
     border-right: solid 1px #dfe4ea;
 }
+.tatCa{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0)), url('./img_west/lobby/lobby2.jpg');
+    background-size: cover;
+}
 .baoGalaTieuDe{
     display: flex;
     margin: auto;
@@ -132,7 +58,9 @@
     width: 100%;
     justify-content: center;
     align-items: center;
-    background-color: #48dbfb;
+    /* background-color: #48dbfb; */
+    background: linear-gradient(to bottom, #48dbfb, transparent);
+    padding-top: 10px;
 }
 .galaTieuDe{
     display: flex;
@@ -143,4 +71,122 @@
     align-items: center;
     background-color: #eccc68;
     border-radius: 20px;
+}
+/* ----------- */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.room {
+  cursor: pointer;
+  padding: 20px;
+  display: inline-block;
+  justify-content: center;
+  width: 300px; /* Đặt chiều rộng mong muốn */
+  height: 200px; /* Đặt chiều cao mong muốn */
+  margin: 10px; /* Khoảng cách giữa các phòng */
+  margin-bottom: -5px;
+  overflow: hidden; /* Ngăn chặn việc tràn nội dung nếu có */
+}
+
+.room img {
+width: 100%;
+height: 100%;
+object-fit: cover; /* Đảm bảo hình ảnh điền đầy kích thước của phòng */
+/* border-radius: 8px; */
+}
+.roomTo{
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  /* background-color: #48dbfb; */
+  justify-content: center;
+  align-items: center;
+  /* filter: blur(5px);  */
+}
+.roomNho{
+  display: flex;
+  width: 70%;
+  height: 95%;
+  /* background-color: #fff; */
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  border-radius: 20px;
+  padding: 10px 0px;
+}
+.detailRoom{
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  /* height: 200px; */
+  background-color: #ffeaa7;
+  /* border-top: 1px solid black; */
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-family: 'Arial';
+  padding-bottom: 15px;
+  border-radius: 20px;
+  transition-duration: 1s;
+}
+.detailRoom:hover {
+  /* transform: rotate(360deg); */
+  transform: scale(1.1,1.1);
+  background-color:#fab1a0;
+  color: #fff200;
+}
+
+@media only screen and (max-width: 1500px){
+  .room {
+    cursor: pointer;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    width: 100%; 
+    height: 200px;
+    margin: 10px; 
+    margin-bottom: -5px;
+    overflow: hidden; 
+  }
+  
+  .room img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  /* border-radius: 8px; */
+  }
+  .roomTo{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .roomNho{
+    display: flex;
+    width: 90%;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    padding-bottom: 20px;
+  }
+  .detailRoom{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 10px 0px;
+    /* height: 200px; */
+    background-color: #ffeaa7;
+    /* border-top: 1px solid black; */
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 15px;
+    border-radius: 20px;
+    transition-duration: 1s;
+  }
 }
